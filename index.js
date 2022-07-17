@@ -1,5 +1,3 @@
-const { getModulesPluginNames } = require("@babel/preset-env");
-
 function writeCards(names){
     let newArray = [];
     for (let i = 0; i < names.length; i++){
